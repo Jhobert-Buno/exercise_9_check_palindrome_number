@@ -9,13 +9,13 @@ def palindrome (number):
 
     reverse_number = original_number[::-1]
     if original_number == reverse_number:
-        print("Yes. The number is palindrome number")
+        print("Yes. The number is a palindrome number")
 
     else:
-        print("No. The number is not palindrome number")
+        print("No. The number is not a palindrome number")
 
 # given/example
-print("Example")
+print("Given:")
 given_1 = 121
 given_2 = 125
 
@@ -23,3 +23,7 @@ palindrome(given_1)
 print('')
 palindrome(given_2)
 
+#ask user input
+print('')
+inputted_number = input("Input a number: ")
+palindrome(inputted_number)
